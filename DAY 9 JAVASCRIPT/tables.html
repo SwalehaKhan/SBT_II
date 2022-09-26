@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Table</legend>
+        <label>Enter any number:</label>
+        <input type="number" id="num" name="table">
+        <button onclick="table()" >Click Here!</button>
+    </fieldset>
+    <script type="text/javascript">
+         function table()
+         {
+            var a=document.getElementById("num").value;
+            var i;
+            var  y;
+            
+            for(i=1; i<=10; i++)
+               {
+                  y=a*i;
+                  document.write(y);
+                
+               }
+            
+
+            
+         }
+    </script>
+    
+</body>
+</html>

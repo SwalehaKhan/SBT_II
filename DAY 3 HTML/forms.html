@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h2></h2>
+    <form method="get" action="" autocomplete="on" enctype="multiform">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <label>Profile Picture:
+                <input type="file" value="select file" >
+    
+               </label><br><br>
+            <label>*First Name:
+                <input type="text" size="10" name="fname" >
+            </label><br><br>
+            <label>*Last Name:
+                <input type="text" size="10"  name="lname">
+            </label><br><br>
+            <label>Gender:
+                <input type="radio" size="10" name="gender" id="male">Male
+                <input type="radio" size="10" name="gender" id="female">Female
+            </label><br><br>
+            <label>Address:
+                <textarea rows="5" cols="25">
+                    Street/Area:
+                    Landmark:
+                    City:
+                
+                    Pincode:
+                
+                 State:
+                    <select>
+                        <option value="">--Select a State</option>
+                        <option value="mp">Madhya Pradesh</option>
+                        <option value="up">Uttar Pradesh</option>
+                        <option value="mh">Maharashtra</option>
+                    </select>
+                   
+                    Country:
+
+
+                </textarea>
+
+            </label><br><br>
+            <label>*Skills:
+                <input type="checkbox" name="skills" id="programming">Programming
+                <input type="checkbox" name="skills" id="web develepment">Web Develepment
+                <input type="checkbox"   name="skills"  id="Ethical Hacking">Ethical Hacking
+           </label><br><br>
+
+           <label>*Email:
+            <input type="email" name="email" id="email"  size="10" required>
+
+           </label>  <br><br>
+           
+           <input type="submit" name="submit" id="submit">
+             </fieldset>
+        
+
+    </form>
+
+    
+</body>
+</html>

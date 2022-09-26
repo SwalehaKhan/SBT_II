@@ -1,0 +1,80 @@
+
+
+
+
+
+
+@font-face {
+    font-family: 'a';
+    src: url(Aclonica-Regular.ttf);
+}
+
+
+
+body
+{
+   
+     background-image: url("universe.jpg");
+        background-size: cover;
+ 
+}
+
+
+
+
+
+
+.heading
+
+{
+ 
+    font-family: 'Dancing Script', cursive;
+    
+    color: white;
+    
+    
+     font-weight: 100;
+    font-size: 50px;
+    transition: 0.5s;
+    text-align: center;
+    text-shadow: 5px 5px 5px #F8CB0C;
+   
+
+
+}
+
+.heading:hover
+{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+     font-weight: 100;
+    font-size: 80px;
+    transition: 0.5s;
+ 
+    text-shadow: 5px 5px 5px  #F8CB0C;
+
+}
+
+
+.heading2
+{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 50px;
+    transition: 0.5s;
+    text-align: center;
+    text-shadow: 5px 5px 5px #F8CB0C;
+}
+
+.heading2:hover
+{
+    font-family: 'a';
+    color: white;
+    font-weight: 300;
+    font-size: 80px;
+    transition: 0.5s;
+    text-align: center;
+    text-shadow: 5px 5px 5px  #F8CB0C;
+}

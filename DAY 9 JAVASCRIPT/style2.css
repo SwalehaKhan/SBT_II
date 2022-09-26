@@ -1,0 +1,31 @@
+
+
+
+.a
+{
+    height: 200px;
+    background-repeat: repeat-x;
+    background-color: darkolivegreen;
+    border-style: 2px solid lightgreen;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+
+
+.b
+{
+
+
+    height: 200px;
+    background-repeat: repeat-x;
+    background-color: green;
+    border-style: 2px solid lightgreen;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}

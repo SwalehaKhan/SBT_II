@@ -1,0 +1,48 @@
+
+
+
+
+
+
+body
+{
+   
+           background-image: url("universe.jpg");
+        background-size: cover;
+ 
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family:'BA' ;
+    src: url(fonts/BRUSHSCI.TTF);
+}
+.heading
+{
+    font-family:'BA';
+    font-size: 100px;
+    font-weight: 500;
+    text-shadow: 10px 10px 10px red;
+    cursor: pointer;
+    transition: 0.5s;
+    color: rgb(60, 255, 0);
+
+
+}
+.heading:hover
+{
+    font-family: 'Arial';
+    font-size: 100px;
+    font-weight: 500;
+    text-shadow: 10px 10px 10px red;
+    cursor: pointer;
+    transition: 0.5s;
+    color: rgb(0, 204, 255);
+
+
+}

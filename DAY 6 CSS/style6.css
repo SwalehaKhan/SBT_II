@@ -1,0 +1,66 @@
+
+
+body
+{
+    margin: 50px;
+}
+#S
+{
+    width: 200px;
+    height: 100px;
+border: 10px solid greenyellow;
+border-top-right-radius: 75px;
+border-bottom-left-radius: 75px;
+box-shadow: 0px 0px 20px rgba(0,0,0,0.7);
+
+
+
+
+
+
+
+font-size: large;
+color: red;
+font-weight: 800;
+
+
+
+
+
+}
+
+#S1
+{
+    width: 200px;
+    height: 100px;
+    border-top-right-radius: 75px;
+border-bottom-left-radius: 75px;
+box-shadow: 20px 20px 20px rgba(0,0,0,0.7);
+
+
+
+}
+
+#S:hover
+{
+    width: 200px;
+    height: 100px;
+border: 10px solid rba(60,171,0,1.00) ;
+
+border-bottom-right-radius: 70px;
+border-top-left-radius:  70px;
+box-shadow: 0px 0px 20px rgba(0,0,0,0.7);
+background-color: red;
+
+
+font-size: large;
+color: white;
+font-weight: 800;
+}
+
+
+
+/*box shadow: 
+
+
+font-color: (160,0,2,1.00)

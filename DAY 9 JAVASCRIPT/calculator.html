@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style1.css" type="text/css">
+</head>
+<body>
+    <h1 align="center">Calculator</h1>
+    <div class="sty">
+        <div id="fir">
+            <label >First Value:</label>
+            <input type="text" id="text1" name="fv" value="" size="10" >&nbsp;
+            <label >Second Value:</label>
+            <input type="text" id="text2" name="sv"  size="10" >&nbsp;
+            <label >Result:</label>
+            <input type="text" id="result" name="re" size="10" >&nbsp;
+        </div><br>
+        <div id="sec">
+            <button onClick="sum()"> SUM</button>
+            <button onClick="sub()"> SUB</button>
+            <button onClick="mul()"> MUL</button>
+            <button onClick="div()"> DIV</button>
+        
+           
+        
+        </div>
+    </div>
+    
+
+    <script type="text/javascript">
+
+        function sum()
+        {
+            var a=document.getElementById("text1").value;
+            var b=document.getElementById("text2").value;
+            var c;
+            c=parseInt(a)+parseInt(b);
+          
+          
+            document.getElementById("result").value=c;
+          
+          
+        }
+
+        
+        function sub()
+        {
+        
+            var a=document.getElementById("text1")
+        }
+        
+        function mul()
+        {
+          var c=0;
+             c=a*b;
+            document.write(c);
+        }
+        
+        function div()
+        {
+          var c=0;
+             c=ab;
+            document.write(c);
+        }
+
+
+    </script>
+    
+</body>
+</html>
